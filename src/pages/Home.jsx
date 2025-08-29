@@ -26,7 +26,7 @@ export default function Home() {
 
         <h1 className="text-5xl font-extrabold mb-4">Hi, I'm SaiTeja</h1>
         <p className="text-xl mb-6 max-w-xl">
-          Web Developer | Node.js Enthusiast | React Craftsman
+          Web Developer | Backend Enthusiast | React Craftsman
         </p>
         <div className="floating-shape top-15 left-15"></div>
         <div className="floating-shape top-50 right-40"></div>
@@ -64,20 +64,17 @@ export default function Home() {
             View My Work
           </a>
         </div>
-
         <div className="justify-items-center flex py-7 px-22 flex-row items-center gap-10 mt-8">
-          {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1kEWppf10oJcYttblNq8Y4iGRGkvRGUyJ/view?usp=sharing" // Replace with your actual resume path
-            className="flex items-center gap-2 bg-white hover:bg-green-700 text-black font-semibold py-2 px-4 rounded"
+            href="https://drive.google.com/file/d/1kEWppf10oJcYttblNq8Y4iGRGkvRGUyJ/view?usp=sharing"
+            className="flex items-center justify-center gap-2 bg-white hover:bg-blue-700 text-black font-semibold py-2 px-4 rounded min-w-[140px]"
           >
             <FaDownload /> Resume
           </a>
 
-          {/* Gmail Button */}
           <a
-            href="mailto:hello@saitejaprasadsunkara.com"
-            className="flex items-center gap-2 bg-white hover:bg-red-700 text-black font-semibold py-2 px-4 rounded"
+            href="mailto:sunkarasaitejaprasad@gmail.com"
+            className="flex items-center gap-2 bg-white hover:bg-blue-700 text-black font-semibold py-2 px-4 rounded min-w-[140px]"
           >
             <FaEnvelope /> Gmail Me
           </a>
@@ -103,7 +100,7 @@ export default function Home() {
             <FaYoutube />
           </a>
           <a
-            href="https://discord.com/saiteja044034"
+            href="https://www.instagram.com/tej_sunkaraa/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-500"
@@ -123,21 +120,3 @@ export default function Home() {
     </section>
   );
 }
-
-// export default function Home() {
-//   return (
-//     <section className="flex flex-col items-center justify-center h-screen bg-gradient-to-br from-gray-900 to-gray-800 text-white px-4 text-center">
-//       <h1 className="text-5xl font-bold mb-4">Hi, I'm SaiTeja</h1>
-//       <p className="text-xl mb-6 max-w-xl">
-//         A passionate web developer focused on building fast, scalable, and
-//         elegant web apps using Node.js, Express, and React.
-//       </p>
-//       <a
-//         href="/projects"
-//         className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded"
-//       >
-//         View My Projects
-//       </a>
-//     </section>
-//   );
-// }

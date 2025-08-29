@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <nav className="bg-gray-800 text-white px-6 py-4 sticky top-0 z-50 shadow-md">
       <div className="flex justify-between items-center max-w-6xl mx-auto">
-        <h1 className="text-xl font-bold tracking-wide">SaiTeja</h1>
+        <h1 className="text-xl font-bold tracking-wide">Saiteja Prasad</h1>
         <div className="flex gap-6 text-sm font-medium">
           <Link to="/" className="hover:text-blue-400">
             Home

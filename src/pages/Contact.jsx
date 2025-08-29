@@ -18,19 +18,19 @@ export default function Contact() {
         </p>
         <div className="flex flex-col gap-4 items-center">
           <a
-            href="ssaitejaprasad@gmail.com"
+            href="mailto:sunkarasaitejaprasad@gmail.com"
             className="text-blue-400 hover:underline"
           >
-            📧saitejaprasadsunkara.com
+            📧sunkarasaitejaprasad@gmail.com
           </a>
           <a
-            href="https://www.linkedin.com/in/sai-teja-prasad-sunkara-557268164/"
+            href="https://github.com/saitejaprasad"
             className="text-blue-400 hover:underline"
           >
             🐙 GitHub
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://www.linkedin.com/in/sai-teja-prasad-sunkara-557268164/"
             className="text-blue-400 hover:underline"
           >
             💼 LinkedIn
@@ -59,7 +59,7 @@ export default function Contact() {
             <FaYoutube />
           </a>
           <a
-            href="https://discord.com/saiteja044034"
+            href="https://www.instagram.com/tej_sunkaraa/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-blue-500"
@@ -67,7 +67,7 @@ export default function Contact() {
             <FaInstagram />
           </a>
           <a
-            href="/"
+            href="https://discord.com/saiteja044034/"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-pink-400"
