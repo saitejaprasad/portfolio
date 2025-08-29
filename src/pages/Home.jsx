@@ -13,6 +13,7 @@ import {
   FaEnvelope,
   FaDownload,
 } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   const images = [photo1, photo2];
@@ -57,12 +58,12 @@ export default function Home() {
           </Swiper>
         </div>
         <div className="justify-items-center py-4">
-          <a
-            href="/projects"
+          <Link
+            to="/projects"
             className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded"
           >
             View My Work
-          </a>
+          </Link>
         </div>
         <div className="justify-items-center flex py-7 px-22 flex-row items-center gap-10 mt-8">
           <a
